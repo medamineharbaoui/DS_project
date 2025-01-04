@@ -1,0 +1,118 @@
+Removed Non-Numeric Columns:
+==================================================
+Total Columns: 92
+Non-Numeric Columns Removed: 0 (0.00%)
+
+
+Missing Data Analysis:
+==================================================
+Column Name	Missing Count	Percentage
+date_id	0	0.00%
+time_id	0	0.00%
+symbol_id	0	0.00%
+weight	0	0.00%
+feature_00	0	0.00%
+feature_01	0	0.00%
+feature_02	0	0.00%
+feature_03	0	0.00%
+feature_04	0	0.00%
+feature_05	0	0.00%
+feature_06	0	0.00%
+feature_07	0	0.00%
+feature_08	968	0.02%
+feature_09	0	0.00%
+feature_10	0	0.00%
+feature_11	0	0.00%
+feature_12	0	0.00%
+feature_13	0	0.00%
+feature_14	0	0.00%
+feature_15	153816	2.48%
+feature_16	0	0.00%
+feature_17	25636	0.41%
+feature_18	0	0.00%
+feature_19	0	0.00%
+feature_20	0	0.00%
+feature_21	0	0.00%
+feature_22	0	0.00%
+feature_23	0	0.00%
+feature_24	0	0.00%
+feature_25	0	0.00%
+feature_26	0	0.00%
+feature_27	0	0.00%
+feature_28	0	0.00%
+feature_29	0	0.00%
+feature_30	0	0.00%
+feature_31	0	0.00%
+feature_32	60712	0.98%
+feature_33	60712	0.98%
+feature_34	0	0.00%
+feature_35	0	0.00%
+feature_36	0	0.00%
+feature_37	0	0.00%
+feature_38	0	0.00%
+feature_39	435818	7.02%
+feature_40	8	0.00%
+feature_41	115368	1.86%
+feature_42	435818	7.02%
+feature_43	8	0.00%
+feature_44	115368	1.86%
+feature_45	2135	0.03%
+feature_46	2135	0.03%
+feature_47	0	0.00%
+feature_48	0	0.00%
+feature_49	0	0.00%
+feature_50	435812	7.02%
+feature_51	0	0.00%
+feature_52	115362	1.86%
+feature_53	435812	7.02%
+feature_54	0	0.00%
+feature_55	115362	1.86%
+feature_56	0	0.00%
+feature_57	0	0.00%
+feature_58	60712	0.98%
+feature_59	0	0.00%
+feature_60	0	0.00%
+feature_61	0	0.00%
+feature_62	403	0.01%
+feature_63	110	0.00%
+feature_64	146	0.00%
+feature_65	2135	0.03%
+feature_66	2135	0.03%
+feature_67	0	0.00%
+feature_68	0	0.00%
+feature_69	0	0.00%
+feature_70	0	0.00%
+feature_71	0	0.00%
+feature_72	0	0.00%
+feature_73	60802	0.98%
+feature_74	60802	0.98%
+feature_75	2876	0.05%
+feature_76	2876	0.05%
+feature_77	490	0.01%
+feature_78	490	0.01%
+responder_0	0	0.00%
+responder_1	0	0.00%
+responder_2	0	0.00%
+responder_3	0	0.00%
+responder_4	0	0.00%
+responder_5	0	0.00%
+responder_6	0	0.00%
+responder_7	0	0.00%
+responder_8	0	0.00%
+
+Correlation Analysis:
+==================================================
+                  date_id       time_id     symbol_id        weight  ...  responder_5  responder_6  responder_7  responder_8
+date_id      1.000000e+00  3.465043e-14  2.552940e-03 -2.506492e-01  ...     0.001772     0.003661     0.011381     0.000851
+time_id      3.465043e-14  1.000000e+00 -6.147942e-17  1.527955e-15  ...    -0.000025    -0.004141    -0.006752    -0.004172
+symbol_id    2.552940e-03 -6.147942e-17  1.000000e+00 -2.399135e-01  ...    -0.001307    -0.003671    -0.010301    -0.001316
+weight      -2.506492e-01  1.527955e-15 -2.399135e-01  1.000000e+00  ...     0.001388     0.001356    -0.001897     0.002209
+feature_00   3.025754e-01  2.429578e-03 -9.565100e-04 -1.566321e-01  ...     0.001996     0.005663     0.013994     0.002709
+...                   ...           ...           ...           ...  ...          ...          ...          ...          ...
+responder_4  1.281170e-02  1.783261e-02 -1.021333e-02 -2.722129e-03  ...     0.200263     0.408631     0.925636     0.187703
+responder_5  1.771950e-03 -2.486492e-05 -1.307225e-03  1.387878e-03  ...     1.000000     0.400480     0.186530     0.849987
+responder_6  3.661058e-03 -4.140623e-03 -3.670927e-03  1.355884e-03  ...     0.400480     1.000000     0.430484     0.438281
+responder_7  1.138121e-02 -6.752143e-03 -1.030083e-02 -1.897459e-03  ...     0.186530     0.430484     1.000000     0.201636
+responder_8  8.507144e-04 -4.171522e-03 -1.316269e-03  2.208562e-03  ...     0.849987     0.438281     0.201636     1.000000
+
+[92 rows x 92 columns]

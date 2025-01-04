@@ -1,0 +1,110 @@
+Removed Non-Numeric Columns:
+==================================================
+Total Columns: 85
+Non-Numeric Columns Removed: 1 (1.18%)
+is_scored
+
+Missing Data Analysis:
+==================================================
+Column Name	Missing Count	Percentage
+row_id	0	0.00%
+date_id	0	0.00%
+time_id	0	0.00%
+symbol_id	0	0.00%
+weight	0	0.00%
+feature_00	0	0.00%
+feature_01	0	0.00%
+feature_02	0	0.00%
+feature_03	0	0.00%
+feature_04	0	0.00%
+feature_05	0	0.00%
+feature_06	0	0.00%
+feature_07	0	0.00%
+feature_08	0	0.00%
+feature_09	0	0.00%
+feature_10	0	0.00%
+feature_11	0	0.00%
+feature_12	0	0.00%
+feature_13	0	0.00%
+feature_14	0	0.00%
+feature_15	39	100.00%
+feature_16	0	0.00%
+feature_17	39	100.00%
+feature_18	0	0.00%
+feature_19	0	0.00%
+feature_20	0	0.00%
+feature_21	1	2.56%
+feature_22	0	0.00%
+feature_23	0	0.00%
+feature_24	0	0.00%
+feature_25	0	0.00%
+feature_26	1	2.56%
+feature_27	1	2.56%
+feature_28	0	0.00%
+feature_29	0	0.00%
+feature_30	0	0.00%
+feature_31	1	2.56%
+feature_32	39	100.00%
+feature_33	39	100.00%
+feature_34	0	0.00%
+feature_35	0	0.00%
+feature_36	0	0.00%
+feature_37	0	0.00%
+feature_38	0	0.00%
+feature_39	39	100.00%
+feature_40	0	0.00%
+feature_41	39	100.00%
+feature_42	39	100.00%
+feature_43	0	0.00%
+feature_44	39	100.00%
+feature_45	0	0.00%
+feature_46	0	0.00%
+feature_47	0	0.00%
+feature_48	0	0.00%
+feature_49	0	0.00%
+feature_50	39	100.00%
+feature_51	0	0.00%
+feature_52	39	100.00%
+feature_53	39	100.00%
+feature_54	0	0.00%
+feature_55	39	100.00%
+feature_56	0	0.00%
+feature_57	0	0.00%
+feature_58	39	100.00%
+feature_59	0	0.00%
+feature_60	0	0.00%
+feature_61	0	0.00%
+feature_62	0	0.00%
+feature_63	0	0.00%
+feature_64	0	0.00%
+feature_65	0	0.00%
+feature_66	0	0.00%
+feature_67	0	0.00%
+feature_68	0	0.00%
+feature_69	0	0.00%
+feature_70	0	0.00%
+feature_71	0	0.00%
+feature_72	0	0.00%
+feature_73	39	100.00%
+feature_74	39	100.00%
+feature_75	0	0.00%
+feature_76	0	0.00%
+feature_77	0	0.00%
+feature_78	0	0.00%
+
+Correlation Analysis:
+==================================================
+             row_id  date_id  time_id  symbol_id   weight  ...  feature_74  feature_75  feature_76  feature_77  feature_78
+row_id      1.00000      NaN      NaN    1.00000 -0.25853  ...         NaN         NaN         NaN         NaN         NaN
+date_id         NaN      NaN      NaN        NaN      NaN  ...         NaN         NaN         NaN         NaN         NaN
+time_id         NaN      NaN      NaN        NaN      NaN  ...         NaN         NaN         NaN         NaN         NaN
+symbol_id   1.00000      NaN      NaN    1.00000 -0.25853  ...         NaN         NaN         NaN         NaN         NaN
+weight     -0.25853      NaN      NaN   -0.25853  1.00000  ...         NaN         NaN         NaN         NaN         NaN
+...             ...      ...      ...        ...      ...  ...         ...         ...         ...         ...         ...
+feature_74      NaN      NaN      NaN        NaN      NaN  ...         NaN         NaN         NaN         NaN         NaN
+feature_75      NaN      NaN      NaN        NaN      NaN  ...         NaN         NaN         NaN         NaN         NaN
+feature_76      NaN      NaN      NaN        NaN      NaN  ...         NaN         NaN         NaN         NaN         NaN
+feature_77      NaN      NaN      NaN        NaN      NaN  ...         NaN         NaN         NaN         NaN         NaN
+feature_78      NaN      NaN      NaN        NaN      NaN  ...         NaN         NaN         NaN         NaN         NaN
+
+[84 rows x 84 columns]
